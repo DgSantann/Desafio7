@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { KnexService } from "../service/knex"
 import { Knex } from "knex";
 import { AlunoT, AlunoParams } from "../module/aluno/aluno"
+=======
+import { KnexService } from "../../service/knex";
+import { Knex } from "knex";
+import { AlunoT, AlunoParams } from "./aluno.d";
+>>>>>>> ae25707ec585571df6e113055c8d790682ac2d5b
 
 export class Aluno {
     private db: Knex;
