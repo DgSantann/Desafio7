@@ -1,4 +1,4 @@
-import { alunosMock } from "../__mocks__/alunos.mock";
+import { alunosMock } from "../_mocks_/aluno.mock";
 
 const knexMock = () => {
     return {

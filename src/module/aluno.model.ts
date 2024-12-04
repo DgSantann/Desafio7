@@ -1,6 +1,6 @@
-import { KnexService } from "../../service/knex";
+import { KnexService } from "../service/knex"
 import { Knex } from "knex";
-import { AlunoT, AlunoParams } from "./aluno.d";
+import { AlunoT, AlunoParams } from "../module/aluno/aluno"
 
 export class Aluno {
     private db: Knex;

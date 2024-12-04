@@ -1,6 +1,8 @@
+import { request } from "express";
+
 describe("INT - Aluno Suite", () => {
     it("##GET /aluno should be able to GET all students", async () => {
-        const response = await request("http://localhost:8080").get("/aluno");
+        const response = await request ("http://localhost:8080").get("/aluno");
 
         expect(response.status).toBe(200);
         expect(response.header["content-type"]).toMatch("json");
