@@ -21,11 +21,11 @@ $ cd desafio-tech-tests
 
 #Instala dependências
 
-$ npm instalar
+$ npm install
 
 # Construa o projeto (compilar TypeScript)
 
-$ npm executar compilação
+$ npm run build
 ```
 
 Para que os testes de integração e solicitações HTTP funcionem você deve criar um banco de dados MySQL em seu computador.
