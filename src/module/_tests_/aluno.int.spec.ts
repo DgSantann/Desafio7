@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-import { request } from "express";
+import request from "supertest";
 
 describe("INT - Aluno Suite", () => {
     it("##GET /aluno should be able to GET all students", async () => {
-        const response = await request ("http://localhost:8080").get("/aluno");
-=======
-describe("INT - Aluno Suite", () => {
-    it("##GET /aluno should be able to GET all students", async () => {
         const response = await request("http://localhost:8080").get("/aluno");
->>>>>>> ae25707ec585571df6e113055c8d790682ac2d5b
 
         expect(response.status).toBe(200);
         expect(response.header["content-type"]).toMatch("json");

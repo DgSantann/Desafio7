@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-import { alunosMock } from "../_mocks_/aluno.mock";
-=======
-import { alunosMock } from "../__mocks__/alunos.mock";
->>>>>>> ae25707ec585571df6e113055c8d790682ac2d5b
 
+import { alunosMock } from "../_mocks_/aluno.mock";
 const knexMock = () => {
     return {
         select: jest.fn().mockReturnValueOnce(alunosMock),

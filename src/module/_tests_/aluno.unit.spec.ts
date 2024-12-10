@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 import { knexServiceMock } from "../_mocks_/KnexService.mock";
-=======
-import { knexServiceMock } from "../__mocks__/knexService.mock";
->>>>>>> ae25707ec585571df6e113055c8d790682ac2d5b
+
 import { Aluno } from "../aluno.model";
 
 describe("UNIT - Aluno model Suite", () => {
