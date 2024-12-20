@@ -42,20 +42,20 @@ Agora você pode iniciar o servidor e executar os dois conjuntos de testes.
 ```bash
 #Inicie o servidor
 
-$ npm início
+$ npm install
 
 # Execute os testes de integração
 
-$ npm executar teste:int
+$ npm run build
 
 
 # Execute os testes unitários
 
-$ npm executar teste: unidade
+$ npm install 
 
 # Alternativamente execute todos os testes de uma vez
 
-$ npm executar teste
+$ npm run build
 ```
 
 Um dos testes de integração cria um aluno no banco de dados e ele é ignorado por padrão. Você pode mudar isso removendo o __.skip__ na linha 10 (no momento em que este README foi escrito) em [este arquivo](./src/module/aluno/__tests__/aluno.int.spec.ts)
