@@ -16,7 +16,7 @@ describe("INT - Aluno Suite", () => {
                 idade: 23,
             });
 
-        expect(response.status).toBe(201);
+        expect(response.status).toBe(200);
         expect(response.header["content-type"]).toMatch("json");
     });
     it("##POST /aluno should NOT be able to post a new student with invalid attributes", async () => {
