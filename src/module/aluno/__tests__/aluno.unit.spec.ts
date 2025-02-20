@@ -1,7 +1,7 @@
 
-import { knexServiceMock } from "../_mocks_/KnexService.mock";
+import { knexServiceMock } from "../../_mocks_/KnexService.mock";
 
-import { Aluno } from "../aluno.model";
+import { Aluno } from "../../aluno.model";
 
 describe("UNIT - Aluno model Suite", () => {
     describe("Truthy basic GET/POST student tests", () => {
