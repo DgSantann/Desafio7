@@ -2,12 +2,12 @@ import type { Config } from 'jest';
 
 const config: Config = {
   // Preset utilizado para testes com Babel
-  preset: 'jest-preset-angular',  // Remova ou substitua este preset, se estiver utilizando outro
+  preset: 'ts-jest',  // Remova ou substitua este preset, se estiver utilizando outro
   testEnvironment: 'node',
   
   // Direciona o Jest para usar Babel para transformar os arquivos .ts
   transform: {
-    '^.+\\.tsx?$': 'babel-jest',  // Configuração para usar Babel em vez de ts-jest
+    '^.+\\.tsx?$': 'ts-jest',
   },
   
   moduleFileExtensions: ['ts', 'tsx', 'js'],
